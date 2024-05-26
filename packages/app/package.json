@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Consumes dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier -w .",
+    "dev": "tsx --conditions=development ../../node_modules/.bin/vite",
+    "dev:build": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "components": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.11.0",
+    "vite": "^5.2.11"
+  }
+}

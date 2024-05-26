@@ -1,0 +1,25 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "Provides dependencies",
+  "type": "module",
+  "main": "dist",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "development": "./src/index.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prettier": "prettier -w .",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "monorepo-mix",
+  "version": "1.0.0",
+  "description": "Monorepo example using built dependencies and raw source for development.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "npm run prettier --workspaces",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monorepo",
+    "buildless",
+    "development",
+    "typescript"
+  ],
+  "author": "Morgan Ney <morganney@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "workspaces": [
+    "packages/components",
+    "packages/app"
+  ]
+}
