@@ -1,1 +1,1 @@
-export * from "./speak/speak.js";
+export * from "./folder/file.js";

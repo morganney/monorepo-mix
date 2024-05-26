@@ -10,6 +10,9 @@
         "types": "./dist/index.d.ts",
         "development": "./src/index.ts",
         "default": "./dist/index.js"
+      },
+      "node": {
+        "import": "./src/index.ts"
       }
     },
     "./package.json": "./package.json"
